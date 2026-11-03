@@ -1,0 +1,43 @@
+PDF result	Title	PDF page	Printed page	TeX label	Lean declarations	Lean source files
+Theorem 1	Characterization	4	2	thm:intro-char	Tournament.Correspondence.MainLower.introductory_characterization	Tournament/Correspondence/MainLower.lean
+Definition 1	Strongly revealing graph	16	14	def:revealing	Tournament.StronglyRevealing	Tournament/Graphs/Structure.lean
+Lemma 1	Structure of strongly revealing graphs	16	14	lem:structure	Tournament.Correspondence.MainLower.graph_structure	Tournament/Correspondence/MainLower.lean
+Proposition 1	Reduction to observable comparisons	16	14	prop:graph	Tournament.Correspondence.MainLower.reduction_to_observable_comparisons; Tournament.Computation.GraphPreparation.specification	Tournament/Correspondence/MainLower.lean; Tournament/Computation/GraphPreparation.lean
+Theorem 1	Characterization, restated	17	15	thm:characterization	Tournament.Characterization.characterization	Tournament/Characterization/Main.lean
+Lemma 2	Second-order exponential weights	18	16	lem:ew	Tournament.Upper.ExponentialWeights.second_order_pairings	Tournament/Upper/ExponentialWeights.lean
+Definition 2	Holding family	21	19	def:holding-family	Tournament.HoldingFamily; Tournament.HoldingFamily.ratio; Tournament.HoldingFamily.refreshRate; Tournament.HoldingFamily.kernel	Tournament/Upper/HoldingFamily.lean
+Lemma 3	Holding chains	21	19	lem:holding-chains	Tournament.Correspondence.holding_chains	Tournament/Correspondence/Upper.lean
+Definition 3	Comparison assignment	21	19	def:assignment	Tournament.Upper.ComparisonAssignment; Tournament.Upper.ComparisonAssignment.totalWeight; Tournament.Upper.ComparisonAssignment.sourceLaw	Tournament/Upper/Assignment.lean
+Theorem 2	Strongly revealing graphs	25	23	thm:main	Tournament.Upper.tournamentPrivateStrategy_bound; Tournament.Correspondence.effective_tournament_upper_finite; Tournament.Computation.FiniteTournamentProgram.tournamentProgram_bound_finite; Tournament.Computation.FiniteProgramHorizon.tournamentProgram_observes	Tournament/Upper/SteeringMinimax.lean; Tournament/Correspondence/UpperFinite.lean; Tournament/Computation/FiniteTournamentProgram.lean; Tournament/Computation/FiniteProgramHorizon.lean
+Proposition 2	Self-financing exponential weights	26	24	prop:self-financing	Tournament.Upper.ExponentialWeights.self_financing_regret_extended	Tournament/Upper/ExtendedSelfFinancing.lean
+Proposition 3	Block guarantee	27	25	prop:block	Tournament.Upper.prepared_block_guarantee	Tournament/Upper/BlockGuarantee.lean
+Corollary 1	Regret at a fixed base rate	27	25	cor:fixed-rate	Tournament.Upper.SteeringParameters.feedback_fixed_rate	Tournament/Upper/SteeringFeedbackPolicy.lean
+Lemma 4	Spectral structure	29	27	lem:spectral	Tournament.Correspondence.spectral_structure	Tournament/Correspondence/Upper.lean
+Definition 4	Score rule	30	28	def:score-rule	Tournament.Upper.ScoreRule; Tournament.Upper.ScoreRule.decoder_realization	Tournament/Upper/Scores.lean
+Lemma 5	One-sided scores reproduce the Dirichlet form	30	28	lem:tournament-scores	Tournament.Upper.tournament_scores_form_scoreRule	Tournament/Upper/Scores.lean
+Definition 5	Balanced estimator	31	29	def:balanced	Tournament.Upper.BalancedEstimator	Tournament/Upper/BalancedEstimator.lean
+Lemma 6	Logarithmic rooted assignment	31	29	lem:rooted-assignment	Tournament.Upper.rooted_assignment_optimum	Tournament/Upper/AssignmentOptimum.lean
+Lemma 7	Balanced estimator from an assignment	31	29	lem:balanced-estimator	Tournament.Upper.ComparisonAssignment.balanced_estimator_from_assignment	Tournament/Upper/BalancedEstimator.lean
+Lemma 8	Steering and estimation on a chunk	31	29	lem:probing	Tournament.Upper.ScoreRule.steering_and_estimation_on_chunk	Tournament/Upper/ChunkTheorem.lean
+Corollary 2	Block loss and switches	32	30	cor:probing-block	Tournament.Upper.probing_block	Tournament/Upper/BlockTheorem.lean
+Lemma 9	Estimation is paid for by steering	33	31	lem:energy	Tournament.Upper.estimation_paid_by_steering	Tournament/Upper/EnergyTheorem.lean
+Lemma 10	Score and estimate tails	33	31	lem:tails	Tournament.Correspondence.score_and_estimate_tails	Tournament/Correspondence/Upper.lean
+Lemma 11	Shrinking dartboard	35	33	lem:sdb	Tournament.Upper.ShrinkingDartboard.shrinking_dartboard_before; Tournament.Upper.ShrinkingDartboard.shrinking_dartboard_general	Tournament/Upper/DartboardFiniteHorizon.lean; Tournament/Upper/DartboardGeneral.lean
+Theorem 3	Observable graphs	36	34	thm:explore	Tournament.Upper.Exploration.observable_graph_lazy_exploration; Tournament.Upper.Exploration.observable_graph_large_rate_finite	Tournament/Upper/ExplorationMain.lean
+Proposition 4		38	36	thm:lower	Tournament.Lower.lower_bound	Tournament/Lower/Main.lean
+Lemma 12	Sets with few observers	39	37	lem:few-observers	Tournament.few_observers	Tournament/Graphs/FewObservers.lean
+Theorem 4	Domination lower bound	39	37	cor:domination	Tournament.Lower.Domination.minimax_lower_bound_explicit	Tournament/Lower/DominationMinimax.lean
+Lemma 13	Missed advantage	45	43	lem:missed-advantage	Tournament.Upper.GeometricProbing.expected_missed_advantage	Tournament/Upper/GeometricMissedExpectation.lean
+Theorem 5	Comparison probing	46	44	thm:breakeven	Tournament.Upper.GeometricProbing.geometric_probing; Tournament.Upper.GeometricProbing.tuned_geometric_probing	Tournament/Upper/GeometricGuarantee.lean
+Lemma 14	Accumulated quantities	49	47	lem:occupation	Tournament.FilteredMoments.accumulated_quantities_finite_horizon	Tournament/Probability/AccumulatedQuantities.lean
+Lemma 15	Expected accumulated quantities	50	48	lem:occupation-potentials	Tournament.Correspondence.occupation_potentials; Tournament.Upper.ScoreRule.untruncated_chunk_absoluteScores_lintegral_le; Tournament.Upper.ScoreRule.untruncated_chunk_absoluteScores_integrable	Tournament/Correspondence/Upper.lean; Tournament/Upper/UntruncatedScoreOccupation.lean
+Lemma 16	Geometric correlations and random partitions	56	54	lem:partition	Tournament.Correspondence.geometric_partition	Tournament/Correspondence/Upper.lean
+Lemma 17	Reference errors bounded by the steering energy	58	56	lem:reference-bound	Tournament.Upper.reference_errors_paid_by_energy	Tournament/Upper/ReferenceBound.lean
+Lemma 18	Dyadic rate shift	60	58	lem:rate-comparison	Tournament.Upper.dyadic_rate_comparison_integer	Tournament/Upper/RateComparison.lean
+Lemma 19	Errors caused by one band	62	60	lem:band-errors	Tournament.Upper.errors_caused_by_one_band	Tournament/Upper/BandErrors.lean
+Lemma 20	Properties of the parent map	64	62	lem:dyadic	Tournament.Correspondence.MainLower.depth_and_congestion	Tournament/Correspondence/MainLower.lean
+Lemma 21	Clipping error	65	63	lem:clip	Tournament.Correspondence.MainLower.clipping_error	Tournament/Correspondence/MainLower.lean
+Lemma 22	Regret	66	64	lem:lower-regret	Tournament.Correspondence.MainLower.regret	Tournament/Correspondence/MainLower.lean
+Lemma 23	Reconstruction	67	65	lem:reconstruct	Tournament.Correspondence.MainLower.reconstruction	Tournament/Correspondence/MainLower.lean
+Lemma 24	Relative entropy	67	65	lem:lower-kl	Tournament.Lower.lower_kl_real; Tournament.Lower.lower_kl_toReal_real	Tournament/Lower/LowerKL.lean
+Proposition 5	Regret in the constructed environments	68	66	prop:bayes	Tournament.Lower.bayes_regret_real	Tournament/Lower/RealBayesRegret.lean
